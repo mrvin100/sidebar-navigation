@@ -1,0 +1,92 @@
+/* custom css file made by JeanDoe */
+
+
+/* import google fonts :
+    1. Poppins
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500&display=swap');
+
+
+/* Initialisation */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+::selection{
+    background: #fff;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background: #5372f0;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 350px;
+}
+h2{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.passwordBox{
+    padding: 0 10px;
+}
+
+input{
+    width: 100%;
+    letter-spacing: 3px;
+    padding: 20px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.buttons{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    text-transform: capitalize;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:first-child{
+    color: #fff;
+    background: #5372f0;
+    width: 69%;
+}
+
+button:last-child{
+    color: #6c757d;
+    background: transparent;
+    width: 28%;
+    border: 1px solid #6c757d;
+}

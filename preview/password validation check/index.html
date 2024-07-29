@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password validation check - JeanDoe</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <label for="username">Utilisateur</label>
+            <input type="text" id="username" required>
+            <label for="psw">Mot de passe</label>
+            <input type="password" id="psw" required>
+            <input type="submit" value="Envoyé">
+        </form>
+    </div>
+    <div id="message">
+        <h3>Le mot de passe doit contenir les éléments suivants</h3>
+        <p id="letter" class="invalid">une lettre minuscule</p>
+        <p id="capital" class="invalid">une lettre majuscule</p>
+        <p id="number" class="invalid">un chiffre</p>
+        <p id="length" class="invalid">au moins 8 caractères</p>
+    </div>
+    <!-- custom js file link -->
+    <script src="js/main.js"></script>
+</body>
+</html>

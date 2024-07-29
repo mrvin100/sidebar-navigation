@@ -1,0 +1,121 @@
+/* custom css file made by JeanDoe */
+
+
+/* import google fonts :
+    1. Poppins
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+
+/* Initialisation */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: #18f;
+}
+
+.message{
+    color: #fff;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+section{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .calcul{
+    display: flex;
+    
+}
+
+section .calcul h1{
+    color: #fff;
+    font-size: 50px;
+    margin: 0 20px;
+}
+
+section h2{
+    color: #fff;
+    margin: 10px 0;
+}
+
+section input{
+    padding: 10px 0;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    margin-bottom: 30px;
+}
+
+section input[type="submit"]{
+    padding: 10px 65px;
+    border-radius: 10px;
+    border: none;
+    background: blue;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: .5s;
+}
+
+section input[type="submit"]:hover{
+    letter-spacing: 2px;
+}
+
+.score{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+a{
+    color: #fff;
+    text-decoration: 0;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 25px 0;
+    display: none;
+}
+
+span{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

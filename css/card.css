@@ -1,0 +1,85 @@
+/* custom card style made by jeandoe starts */
+
+.card{
+	background: var(--white);
+	max-width: 20rem;
+    min-height: 23rem;
+    width: 100%;
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: .25rem;
+    display: grid;
+    place-content: center;
+	gap: .5rem;
+	box-shadow: 0 0 1px 1px rgba(0,0,0, .1);
+	position: relative;
+}
+
+.card:hover{
+	box-shadow: 0 0 1px 3px rgba(0,0,0, .1);
+}
+.card:hover .card_img, .card:hover .infos{
+	transform: translateY(-20px);
+}
+
+.card:hover .card_img{
+	border: 30px solid var(--light-bg);
+	transition: all .4s;
+    background: var(--black);
+}
+
+.card .infos{
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.card h3{
+	color: var(--black);
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+
+.card span{
+	font-size: .938rem;
+	color: var(--light-clr);
+}
+
+.card .card_img{
+	display: block;
+	width: 9rem;
+	height: 9rem;
+	border-radius: 50%;
+	transition: all .3s;
+	overflow: hidden;
+}
+
+.card .card_img img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.card .icon{
+    text-align: center;
+	display: flex;
+	justify-content: space-between;
+	gap: .3rem;
+	align-items: center;
+	flex-direction: row;
+	position: absolute;
+	transition:  all .4s;
+	margin-top: 1rem;
+	transform: translateY(100px);
+    margin: 1rem auto;
+}
+
+.card .icon a i {
+	font-size: 1.3rem;
+	margin: 10px;
+	color: var(--black);
+	transition: all .6s;
+}
+.card:hover .icon{
+	transform: translateY(5px);
+}
+
